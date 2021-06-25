@@ -1,6 +1,6 @@
 steps:
 # deploy container image to GKE
-- name: "northamerica-northeast1-docker.pkg.dev/nbd-rta-dev-01/paulo-docker-test-repo/paulo"
+- name: "northamerica-northeast1-docker.pkg.dev/nbd-rta-dev-01/paulo-docker-test-repo/paulo:1"
   args:
     - run
     - --filename=cms-deploy.yaml
